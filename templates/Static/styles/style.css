@@ -78,6 +78,13 @@ li a {
     text-decoration: none;
 }
 
+.rowInrow a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
 .formRow {
     display: flex;
 }
