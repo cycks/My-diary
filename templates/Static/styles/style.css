@@ -7,8 +7,7 @@ body {
 	margin: 0px 60px 0px 60px; 
 }
 .gridContainer{
-	display: grid;
-  	grid-template-columns: auto;
+	display: inline-grid;
   	padding: 10px;
 }
 .roundedCorner { 
@@ -40,7 +39,7 @@ body {
 }
 .registerRoundedCorner{
 	width: 1000px;
-    height: 400px;
+    height: auto;
     margin: 50px 90px 30px 90px;
     border: solid 1px green;
     background-color: #eed;
