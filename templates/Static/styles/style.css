@@ -10,7 +10,7 @@ ul {
 	list-style-type: none;
 	margin-left: 0px;
 	overflow: auto;
-	background-color: #b19228;
+	background-color: green;
 }
 li a {
 	display: block;
@@ -36,7 +36,7 @@ li a {
     float: left;
 }
 .rowInrow {
-	background-color: #b19228;
+	background-color: green;
     margin: 0px 0px 0px 0px;
     width: 100%;
     height: 50px;
@@ -50,14 +50,14 @@ li a {
     width: 62%;
     margin-left: 220px;
     padding: 12px 12px;
-    background-color: #b19228;
+    background-color: green;
     color: black;
 }
 .registerRoundedCorner{
-	width: 800px;
-    height: 200px;
-    margin: 50px 20px 30px 20px;
-    border: solid 1px #b19228;
+	width: 1000px;
+    height: 400px;
+    margin: 50px 90px 30px 90px;
+    border: solid 1px green;
     background-color: #eed;
     float: left;
 }
