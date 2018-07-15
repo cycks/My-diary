@@ -18,6 +18,8 @@ body {
     margin: 50px 90px 30px 90px;
     border: solid 1px green;
     background-color: #eed;
+    background-image:url("creative-smartphone-notebook-typography.jpg");
+    background-size: cover;
     float: left;
 }
 .rowInrow {
@@ -151,6 +153,8 @@ h1>button{
     margin: 50px 20px 30px 60px;
     border: solid 1px green;
     background-color: #eed;
+    background-image:url("");
+    background-size: cover;
     float: left;
 }
 .addEntryButton button{

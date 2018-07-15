@@ -10,6 +10,9 @@ var nameAddedContent = '';
 
 $(document).ready(function() {
 	$("body").on('click', ".addEntryButton", function(e){
-		alert($(".firstRow").children().length);
 		$('.firstRow').append(addContent);
+	});});
+$(document).ready(function() {
+	$("body").on('click', ".deleteContentButton", function(e){
+		console.log($(this).closest('.entry').remove());
 	});});
