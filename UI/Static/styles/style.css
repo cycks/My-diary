@@ -115,6 +115,15 @@ li a {
 	height: 40px;
 	border-radius: 20px;
 }
+h1>button{
+    float: right;
+    width: 90px;
+    height: 3em;
+    border-radius: 3px;
+}
+.entries{
+    width:90%;
+}
 .entries ul{
 	background-color: white;
 	list-style-type: none;
