@@ -34,14 +34,6 @@ body {
 	margin: 0px 0px 0px 0px;
 	text-align: left;
 }
-.footer {
-    position: fixed;
-    width: 62%;
-    margin-left: 220px;
-    padding: 12px 12px;
-    background-color: green;
-    color: black;
-}
 .registerRoundedCorner{
 	width: 1000px;
     height: auto;
@@ -159,5 +151,47 @@ li a {
 	border-radius: 20px;
 }
 .editContentButton{
-	margin: 0px 0px 0px 80px;
+	margin: 0px 0px 0px 100px;
 }
+.deleteContentButton{
+    margin: 0px 0px 0px 0px;
+}
+/*This section upto the next prompt comment styles the popup form*/
+.popUpform {
+    display: flex;
+}
+/*Column 3 and 4 are used for creating a popup form for editing content*/
+.column3 {
+    flex: 50%;
+    padding: 10px;
+    height: 30px;
+    width: 180px;
+    float: left;
+}
+.column4 {
+    flex: 50%;
+    padding: 10px;
+    height: 30px;
+    width: 400px; 
+    float: left;
+}
+.popUpRoundedCorner{
+    width: 700px;
+    height: auto;
+    margin: 50px 90px 30px 90px;
+    border: solid 1px green;
+    background-color: #eed;
+    float: left;
+    border-radius: 15px;
+}
+
+.column4 input{
+    width: 450px;
+    margin-right: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 34px;
+}
+/*End of styling pop up form*/
