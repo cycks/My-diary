@@ -64,7 +64,7 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: green;
-    width: 90%;
+    width: 100%;
 }
 
 li {
@@ -138,4 +138,12 @@ li a {
 #entries.home ul>li:nth-child(2){
 	float: left;
 	margin-left: 200px;
+}
+.roundedCorner.entry { 
+	width: 200px;
+    height: 150px;
+    margin: 50px 20px 30px 60px;
+    border: solid 1px green;
+    background-color: #eed;
+    float: left;
 }
