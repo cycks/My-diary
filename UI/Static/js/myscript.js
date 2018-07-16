@@ -11,8 +11,23 @@ var nameAddedContent = '';
 $(document).ready(function() {
 	$("body").on('click', ".addEntryButton", function(e){
 		$('.firstRow').append(addContent);
-	});});
+	});
+});
 $(document).ready(function() {
 	$("body").on('click', ".deleteContentButton", function(e){
-		console.log($(this).closest('.entry').remove());
-	});});
+		$(this).closest('.entry').remove();
+	});
+});
+// Used to open a popup window
+$(document).ready(function() {
+	$("body").on('click', "#popUpRoundedCorner", function(){
+		$("#popUpRoundedCorner").popUpRoundedCorner({
+			autoOpen: false
+		});
+		$('#showpopUpRoundedCorner').on("click", function(){
+			$("#popUpRoundedCorner").popUpRoundedCorner("open")
+		});
+	});
+});
+
+

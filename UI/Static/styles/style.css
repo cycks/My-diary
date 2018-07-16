@@ -194,7 +194,7 @@ h1>button{
     height: auto;
     margin: 50px 90px 30px 90px;
     border: solid 1px green;
-    background-color: #eed;
+    background-color: white;
     float: left;
     border-radius: 15px;
 }
@@ -208,4 +208,5 @@ h1>button{
     box-sizing: border-box;
     height: 34px;
 }
+
 /*End of styling pop up form*/
